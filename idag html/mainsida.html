@@ -7,39 +7,38 @@
     <title>mycket bra cocacola</title>
 </head>
 <body>
-    <form action="slusida.html" get>
-        <label for="fname" >First name:</label><br>
+    <form action="slusida.html" method="get">
+        <label for="föname" >First name:</label><br>
         <input type="text" id="föname" name="föname" required><br>
-        <label for="lname">last name:</label><br>
+        <label for="efname">last name:</label><br>
         <input type="text" id="efname" name="efname" required><br>
  
-        <label for="fav-gaming">Favorit gamingdevice?</label><br>
+        <h1 >Favorit gamingdevice?</h1><br>
         <input type="radio" id="ps" name="fav_gaming" value="HTML">
         <label for="ps">blaystaition</label><br>
-        <input type="radio" id="ps" name="fav_gaming" value="CSS">
+        <input type="radio" id="nintendo" name="fav_gaming" value="nintendo">
         <label for="nintendo">nintendå</label><br>
-        <input type="radio" id="nintendo" name="fav_gaming" value="CSS">
+        <input type="radio" id="pc" name="fav_gaming" value="pc">
         <label for="pc">data</label><br>
-        <input type="radio" id="pc" name="fav_gaming" value="CSS">
+        <input type="radio" id="xbox" name="fav_gaming" value="xbox">
         <label for="xbox">eckes bockes</label><br>
-        <input type="radio" id="xbox" name="fav_gaming" value="CSS">
 
- 
-        
+
         <label for="annan">annan</label><br>
-        <textarea name="annan-methods" rows="10" cols="30">gahba vilken?</textarea><br>
+        <textarea name="annan-methods" id="annan" rows="10" cols="30">gahba vilken?</textarea><br>
  
-        <label for="Game-ganeras">Favorit kaka</label><br>
-        <input list="Game-ganeras">
-        <datalist id="Game-ganeras">
+        <label for="idag1">Favorit kaka</label><br>
+        <input id="idag1" list="Game">
+        <datalist id="Game">
             <option value="Chocolatechip(bra alternativ)">
             <option value="Vit choklad och citron(bästa alternativet)">
             <option value="Oreo(basic mf's)">
             <option value="Nonstop kaka">
         
         </datalist><br>
-        <textarea name="Extra-info" rows="10" cols="30">Berätta mer idag!</textarea><br>
-        <input type="submit" value="submit"></input>
+        <label for="imorgon">Skriv mer idag!</label>
+        <textarea name="Extra-info" id="imorgon" rows="10" cols="30">!</textarea><br>
+        <input type="submit" value="submit">
     </form>
 </body>
 </html>
